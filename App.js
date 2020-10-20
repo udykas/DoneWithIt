@@ -1,11 +1,14 @@
 import React from 'react';
 import { SafeAreaView, View, Platform, StatusBar, StyleSheet } from 'react-native';
-import WelcomeScreen from './screens/WelcomeScreen';
+import ViewImageScreen from './app/screens/ViewImageScreen';
+import WelcomeScreen from './app/screens/WelcomeScreen';
+
 
 export default function App() {
   return (
     <SafeAreaView style={styles}>
-      <WelcomeScreen />
+      {/* <WelcomeScreen /> */}
+      <ViewImageScreen />
     </SafeAreaView>
   );
 }
